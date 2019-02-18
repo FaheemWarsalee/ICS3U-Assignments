@@ -1,0 +1,24 @@
+class CountedLoopsExercise1
+{
+ public static void main (String[] args)
+   
+ {
+  string userName;
+  int xLoops;
+  
+  //Inputs
+  System.out.print("enter your name: ");
+  userName = In.getString();
+  
+  System.out.print("Repetittions; ");
+  xLoops = In.getInt();
+  
+  //Processing
+  for (int count = 0; count <= xLoops; count++)
+  {
+    System.out.println(userName);
+  }
+    
+    
+ }
+}

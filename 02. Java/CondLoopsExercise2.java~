@@ -1,0 +1,21 @@
+/*
+Program:Do loop Exercise2 
+Programmer: Faheem Warsaleew
+Course: ICS3U
+Date: April 5th 2018
+Brief Description: Asks user if want to continue using "y" and "n"*/
+
+class CondLoopsExercise2
+{
+ public static void main(String[] args)
+ {
+  char letter;
+  
+  do
+  {
+    System.out.print("enter a letter of the alphabet : ");
+    letter = In.getChar();
+  }
+  while !('A' <= letter && 'Z' <= letter || 'a' <= letter && 'z' <= letter);
+ }
+}

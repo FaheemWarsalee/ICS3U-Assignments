@@ -1,0 +1,28 @@
+import java.util.concurrent.ThreadLocalRandom;
+class Functions
+{
+  public static int randomNumber(int min, int max, int step)
+  {
+     int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);
+     
+     return(min);
+   }
+  
+  public static void main(String[] args)
+  {
+    int userMin, userMax, userStep;
+    
+    System.out.print("Enter a minimum value: ");
+    userMin = In.getInt();
+    
+    System.out.print("Enter a maximum value: ");
+    userMax = In.getInt();
+    
+    System.out.print("Enter a step pattern: ");
+    userStep = In.getInt();
+    
+    System.out.println(randomNumber(userMin, userMax, userStep) + " is a random number between " + min + " and " + max + " by " + step); 
+    
+  }
+  
+}

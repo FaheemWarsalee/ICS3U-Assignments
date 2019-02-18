@@ -1,0 +1,61 @@
+27 Mar 2018 17:23:54 GMT: Log 'EclipseCompiler.txt' opened: 27 Mar 2018 17:23:54 GMT with name F:\00ICS3U\02. Java\EclipseCompiler.txt
+27 Mar 2018 17:24:48 GMT: diagnostics = javax.tools.DiagnosticCollector@eb25ce
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9af1b3
+fileObjects = [F:\00ICS3U\02. Java\HelloWorld.java]
+27 Mar 2018 17:24:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@166aa4c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:24:49 GMT: Compiler call returned
+27 Mar 2018 17:28:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1f982f6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4c6f0a
+fileObjects = [F:\00ICS3U\02. Java\HelloWorld.java]
+27 Mar 2018 17:28:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fc11d1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:28:53 GMT: Compiler call returned
+27 Mar 2018 17:28:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dceb58
+27 Mar 2018 17:28:53 GMT:  Kind = ERROR
+27 Mar 2018 17:28:53 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 9 ColNo = 7 Msg = 'beta cannot be resolved to a type'
+27 Mar 2018 17:28:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d4b14d
+27 Mar 2018 17:28:53 GMT:  Kind = ERROR
+27 Mar 2018 17:28:53 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 11 ColNo = 7 Msg = 'beta cannot be resolved to a variable'
+27 Mar 2018 17:28:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15d06e4
+27 Mar 2018 17:28:53 GMT:  Kind = ERROR
+27 Mar 2018 17:28:53 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 11 ColNo = 14 Msg = 'in cannot be resolved'
+27 Mar 2018 17:28:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ab6e53
+27 Mar 2018 17:28:53 GMT:  Kind = ERROR
+27 Mar 2018 17:28:53 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 12 ColNo = 26 Msg = 'beta cannot be resolved to a variable'
+27 Mar 2018 17:29:29 GMT: diagnostics = javax.tools.DiagnosticCollector@100a586
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@136e6a
+fileObjects = [F:\00ICS3U\02. Java\HelloWorld.java]
+27 Mar 2018 17:29:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@100cb6e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:29:29 GMT: Compiler call returned
+27 Mar 2018 17:29:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e3abf3
+27 Mar 2018 17:29:29 GMT:  Kind = ERROR
+27 Mar 2018 17:29:29 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 11 ColNo = 14 Msg = 'in cannot be resolved'
+27 Mar 2018 17:30:59 GMT: diagnostics = javax.tools.DiagnosticCollector@11cb3b0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13cb3bc
+fileObjects = [F:\00ICS3U\02. Java\HelloWorld.java]
+27 Mar 2018 17:30:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@72e104' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:31:00 GMT: Compiler call returned
+27 Mar 2018 17:31:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51a8d8
+27 Mar 2018 17:31:00 GMT:  Kind = ERROR
+27 Mar 2018 17:31:00 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 11 ColNo = 14 Msg = 'in cannot be resolved'
+27 Mar 2018 17:31:02 GMT: diagnostics = javax.tools.DiagnosticCollector@f19f95
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b941e7
+fileObjects = [F:\00ICS3U\02. Java\HelloWorld.java]
+27 Mar 2018 17:31:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@d25c7f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:31:02 GMT: Compiler call returned
+27 Mar 2018 17:31:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10d4e5b
+27 Mar 2018 17:31:02 GMT:  Kind = ERROR
+27 Mar 2018 17:31:02 GMT: Name = F:\00ICS3U\02. Java\HelloWorld.java LineNo = 11 ColNo = 14 Msg = 'in cannot be resolved'
+27 Mar 2018 17:31:17 GMT: Log 'EclipseCompiler.txt' opened: 27 Mar 2018 17:31:17 GMT with name F:\00ICS3U\02. Java\EclipseCompiler.txt
+27 Mar 2018 17:31:42 GMT: diagnostics = javax.tools.DiagnosticCollector@38d58e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f66d70
+fileObjects = [F:\00ICS3U\02. Java\BetaProgram.java]
+27 Mar 2018 17:31:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@5f8336' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:31:44 GMT: Compiler call returned
+27 Mar 2018 17:31:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8044b7
+27 Mar 2018 17:31:44 GMT:  Kind = ERROR
+27 Mar 2018 17:31:44 GMT: Name = F:\00ICS3U\02. Java\BetaProgram.java LineNo = 11 ColNo = 14 Msg = 'in cannot be resolved'
+27 Mar 2018 17:31:52 GMT: diagnostics = javax.tools.DiagnosticCollector@1a8a52
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19d7a86
+fileObjects = [F:\00ICS3U\02. Java\BetaProgram.java]
+27 Mar 2018 17:31:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1dd0f46' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, F:\00ICS3U\02. Java;P:\00ICS3U\02. Java;F:\00ICS3U\02. Java;F:\00ICS3U\02. Java\drjava-beta-20160913-225446.jar]
+27 Mar 2018 17:31:52 GMT: Compiler call returned

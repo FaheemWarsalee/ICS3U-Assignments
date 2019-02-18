@@ -1,0 +1,13 @@
+class examReview
+{
+  public static void main(String[] args)
+  {
+    int[] arr1 = new int[30];
+    
+    arr1[25] = 4;
+    
+    int[]arr2 = arr1;
+    
+    System.out.println(arr2[25]);
+  }
+}

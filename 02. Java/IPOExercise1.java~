@@ -1,0 +1,18 @@
+/* Name : Faheem Warsalee
+ * Program : IPO EXERCISE 2 
+ * Course : ICS3U
+ * Date : 2018
+ * Brief Description :This program will ask the user fro 4 course marks and output the avergae.
+ */
+
+class IPOExercise1
+{
+   public static void main (String[] args)
+  
+  {
+    
+   
+  }
+  
+  
+}

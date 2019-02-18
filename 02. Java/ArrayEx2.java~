@@ -1,0 +1,40 @@
+/*
+ Program:Array Exercise 1
+ Programmer: Faheem Warsalee
+ Course: ICS3U
+ Date: May 3rd 2018
+ 
+ Brief Description:Write a program to keep track of many rolls of a single die (each roll should be random).  
+                   Use an array to keep track of each roll (1 to 6).  Allow the user to choose the number of 
+                   rolls.  After the rolling is complete, display the results for each possible roll (1 to 6). 
+(a) When displaying the results for a single roll, also display the percentages for that roll (i.e., what 
+    percent of the rolls were 1, or 2, or 3, etc.)
+(b) Simulate two dice being rolled.  The user picks number of rolls.  Display percentages.
+(c) When performing a large simulation, there can be dead time on the monitor (nothing happens to let the 
+    user know the program is still running).  Experiment with ways to show the user that the program is running 
+    (think of progress bars or other indicators you might have seen with programs such as installers). */
+
+class ArrayEx2
+{
+  public static void main(String[] args)
+  {
+    int rollTime, dieRoll;
+    
+    System.out.print("How many times to roll die: ");
+    rollTime = In.getInt();
+    
+    int[] rollHold = new int[rollTime];
+    
+    for (int i = 1; i <= rollTime; i++)
+    {
+      dieRoll = (int)(6*Math.random())+1;
+      
+      rollHold[i] = dieRoll
+    }
+    
+    for (int put : rollHold)
+    {
+      System.out.println(put);
+    }
+  }
+}

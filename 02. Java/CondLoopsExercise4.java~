@@ -1,0 +1,24 @@
+/*
+Program:Do loop Exercise4
+Programmer: Faheem Warsalee
+Course: ICS3U
+Date: April 5th 2018
+Brief Description: Program will ask the user for password until the password is provided*/
+
+class CondLoopsExercise4
+{
+  public static void main (String[] args)
+  {
+    String pass;
+    
+    do
+    {
+      System.out.print("Enter Password: ");
+      pass = In.getString();
+    }
+    while (!pass ==  "ladadida");
+    
+    System.out.println("That is the Password");
+    
+  }
+}

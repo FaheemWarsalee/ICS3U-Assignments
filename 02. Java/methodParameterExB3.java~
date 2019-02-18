@@ -1,0 +1,30 @@
+/*
+ Program:Method Exercise w/ Parameters 2
+Programmer: Faheem Warsalee
+Course: ICS3U
+Date:April 10th 2018
+
+Brief Description: Write a procedure called validateUser() 
+                   that will ask for a username and password.  The user has 3 
+                   tries to get it right, after which an error message will be output to
+                   the screen.
+*/
+
+class methodParameterExB3
+{
+  public static void validateUser(String userName, String userPass)
+  {
+   System.out.print("Usernam: ");
+   userName = In.getString();
+   
+   System.out.print("Password: ");
+   userPass = In.getString();
+  }
+  
+ public static void main(String[] args)
+ {
+   String userName, userPass;
+   
+   validateUser(userName, userPass);
+ }
+}

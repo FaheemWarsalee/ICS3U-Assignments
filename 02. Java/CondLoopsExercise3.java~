@@ -1,0 +1,21 @@
+/*
+Program:Do loop Exercise3 
+Programmer: Faheem Warsaleew
+Course: ICS3U
+Date: April 5th 2018
+Brief Description:loops untiluser puts a positive Interger and prints sum*/
+
+class CondLoopsExercise3
+{
+ public static void main (String[] args)
+ {
+   int num, sum;
+   
+   do
+   {
+     System.out.print("Enter a positive Integer: ");
+     num = In.getInt();
+   }
+   while (num <= 0);
+ }
+}
