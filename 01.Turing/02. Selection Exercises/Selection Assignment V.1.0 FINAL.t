@@ -1,0 +1,189 @@
+/*
+ Program: Assignment 2 : Selection
+ Programmer : Faheem Warsalee
+ Course Code : ICS3U
+ Date : March 6th 2018
+
+ Brief Description: Lvl 3: user inputs one interger value (0-359) that is representative of a bearing, the program will tell the user which cordinal direction their bearing is closest to.
+		    Lvl 4: States specific directions for (N E S W) (NE SE SW NW) and the compass direction w/ angle (ie : NxE) where x=angle and N and E are the copass directions (compass direction may vary)
+		    Lvl 4+: lets the user choose if they want to go from bearing to compass or compass to bearing
+ */
+
+
+%Declaring Variables
+var userBear : int
+var finalBear : int
+
+%user choice
+var userChoice : int
+var userChoiceComp, userChoiceBear : boolean
+
+%UserBear only 4 coordinal directions (North East South West)
+var isUserBearN, isUserBearE, isUserBearS, isUserBearW : boolean
+
+%Specified coordinal directions (North-East=NE, North-West=NW, South-East=SE, South-West=SW
+var isUserBearNE, isUserBearSE, isUserBearSW, isUserBearNW : boolean
+
+%Specified compass direction w/ angle (where x= user bearing/angle)
+var isUserBearNxE, isUserBearSxE, isUserBearSxW, isUserBearNxW : boolean
+var isUserBearExN, isUserBearExS, isUserBearWxS, isUserBearWxN : boolean
+
+%Compass to bearing Variables
+var userDirect1, userDirect2 : string
+var userAngle, finalAngle : int
+var finalAngleEN, finalAngleES, finalAngleSE, finalAngleSW, finalAngleWS, finalAngleWN, finalAngleNW : int
+var isAngleNE, isAngleEN, isAngleES, isAngleSE, isAngleSW, isAngleWS, isAngleWN, isAngleNW : boolean
+
+%Inputs
+loop
+    loop
+	put "================================================================================"
+	put "\nPlease enter a Bearing or Compass Direction by using the menu below."
+	put "\n\t---Menu--- \n[1] Bearing \n[2] Compass Direction \nInput: "..
+	get userChoice
+	if (userChoice = 1 or userChoice =2) then
+	    exit
+	else
+	    put "Please enter either 1 or 2..."
+	end if
+    end loop
+
+    userChoiceBear := userChoice = 1
+    userChoiceComp := userChoice = 2
+
+    if (userChoiceComp) then %usder chooses to go from compass to bearing
+	loop
+	    put "\nCompass Direction: " ..
+	    get userDirect1
+	    userDirect1 := Str.Lower (userDirect1)%Turns the entered string into all lower case
+	    if (userDirect1 = "n" or userDirect1 = "north" or userDirect1 = "e" or userDirect1 = "east" or userDirect1 = "s" or userDirect1 = "south" or userDirect1 = "w" or userDirect1 = "west") then %checks if user direction 1 is a valid option
+		put "Compass Angle: " ..
+		get userAngle
+		if (userAngle >= 0 and userAngle <= 45) then
+		    put "Compass Direction: " ..
+		    get userDirect2
+		    userDirect2 := Str.Lower (userDirect2)
+		    if (userDirect2 = "n" or userDirect2 = "north" or userDirect2 = "e" or userDirect2 = "east" or userDirect2 = "s" or userDirect2 = "south" or userDirect2 = "w" or userDirect2 = "west" or userDirect1(1)not=userDirect2(1)) then %checks if user direction 2 is a valid option
+			exit %if user direction 1 and 2 are valid exit loop
+		    else
+			put "that is not a valid entry." %if not trap them
+		    end if
+		else 
+			put "please enter an interger between 0 and 45."
+		end if
+	    else
+		put "that is not a valid entry."
+	    end if
+	end loop
+    elsif (userChoiceBear) then %user chooses to go from bearing to compass
+	put "\nEnter a Bearing: " ..
+	get userBear
+    end if
+    %Processing
+    if (userChoiceBear) then
+	finalBear := userBear mod 360 % mod converts any out of range number back into range by finding the remainder of the division between userInput and 360 degrees.
+
+	%Checks if the user bearing is exactly at a coordinal diretion of north east south or west
+	isUserBearN := finalBear = 0
+	isUserBearE := finalBear = 90
+	isUserBearS := finalBear = 180
+	isUserBearW := finalBear = 270
+
+	%Checks if user bearing is exctyl at north-east, north-west, sout-east south-west
+	isUserBearNE := finalBear = 45
+	isUserBearSE := finalBear = 135
+	isUserBearSW := finalBear = 225
+	isUserBearNW := finalBear = 315
+
+	%wil the user bearing be in NE, SE, SW, NW sector
+	isUserBearNxE := finalBear > 0 and finalBear < 45
+	isUserBearSxE := finalBear > 135 and finalBear < 180
+	isUserBearSxW := finalBear > 180 and finalBear < 225
+	isUserBearNxW := finalBear > 315 and finalBear < 360
+
+	%wil the user bearing be in EN, ES, WS, WS Sector
+	isUserBearExN := finalBear > 45 and finalBear < 90
+	isUserBearExS := finalBear > 90 and finalBear < 135
+	isUserBearWxS := finalBear > 225 and finalBear < 270
+	isUserBearWxN := finalBear > 270 and finalBear < 315
+
+	%Compass to Bear
+    elsif (userChoiceComp) then
+	finalAngleEN := 90 - userAngle
+	finalAngleES := 90 + userAngle
+	finalAngleSE := 180 - userAngle
+	finalAngleSW := 180 + userAngle
+	finalAngleWS := 270 - userAngle
+	finalAngleWN := 270 + userAngle
+	finalAngleNW := 360 - userAngle
+    end if
+    
+    %Outputs
+    if (userChoiceBear) then
+	%Checks if user's bearing is exactly at directions North East South West
+	if (isUserBearN) then
+	    put "Bearing ", userBear, chr(186), " is North." %chr(186) outputs the degree symbol for angles.
+	elsif (isUserBearE) then
+	    put "Bearing ", userBear, chr(186), " is East."
+	elsif (isUserBearS) then
+	    put "Bearing ", userBear, chr(186), " is South."
+	elsif (isUserBearW) then
+	    put "Bearing ", userBear, chr(186), " is West."
+	end if
+
+	%Checks if user's bearing is exactly at diretions North-East, South-East, South-West, North-West.
+	if (isUserBearNE) then
+	    put "Bearing ", userBear, chr(186), " is North East."
+	elsif (isUserBearSE) then
+	    put "Bearing ", userBear, chr(186), " is South East."
+	elsif (isUserBearSW) then
+	    put "Bearing ", userBear, chr(186), " is South West."
+	elsif (isUserBearNW) then
+	    put "Bearing ", userBear, chr(186), " is North West."
+	end if
+
+	%Checks if the users bearing exact position in the sectors (NE, SE, SW, NW)
+	if (isUserBearNxE) then
+	    put "Bearing ", userBear,chr(186), " is N", finalBear,chr(186), "E"
+	elsif (isUserBearSxE) then
+	    put "Bearing ", userBear,chr(186), " is S", (180 - finalBear),chr(186), "E"
+	elsif (isUserBearSxW) then
+	    put "Bearing ", userBear,chr(186), " is S", (finalBear - 180),chr(186), "W"
+	elsif (isUserBearNxW) then
+	    put "Bearing ", userBear, chr(186)," is N", (360 - finalBear),chr(186), "W"
+	end if
+
+	%Checksif the user bearing be in NE, SE, SW, NW sector
+	if (isUserBearExN) then
+	    put "Bearing ", userBear,chr(186), " is E", (90 - finalBear),chr(186), "N"
+	elsif (isUserBearExS) then
+	    put "Bearing ", userBear,chr(186), " is E", (finalBear - 90),chr(186), "S"
+	elsif (isUserBearWxS) then
+	    put "Bearing ", userBear,chr(186), " is W", (270 - finalBear),chr(186), "S"
+	elsif (isUserBearWxN) then
+	    put "Bearing ", userBear,chr(186), " is W", (finalBear - 270),chr(186), "N"
+	end if
+
+    elsif (userChoiceComp) then
+	%Outputs user compass to bearing
+	if (userDirect1 (1) = "n" and userDirect2 (1) = "e" ) then %userDirect1(1) only looks at the first character of the string after being validated. 
+	    put "compass N", userAngle, chr(186), "E is bearing ", userAngle, chr(186) 
+	elsif (userDirect1 (1) = "e" and userDirect2 (1) = "s") then 
+	    put "compass E", userAngle, chr(186), "S is bearing ", finalAngleES, chr(186)
+	elsif (userDirect1 (1) = "e" and userDirect2 (1) = "n") then 
+	    put "compass E", userAngle, chr(186), "N is bearing ", finalAngleEN, chr(186)
+	elsif (userDirect1 (1) = "s" and userDirect2 (1) = "w") then 
+	    put "compass S", userAngle, chr(186), "W is bearing ", finalAngleSW, chr(186)
+	elsif (userDirect1 (1) = "s" and userDirect2 (1) = "e") then 
+	    put "compass S", userAngle, chr(186), "E is bearing ", finalAngleSE, chr(186)
+	elsif (userDirect1 (1) = "w" and userDirect2 (1) = "s") then 
+	    put "compass W", userAngle, chr(186), "S is bearing ", finalAngleWS, chr(186)
+	elsif (userDirect1 (1) = "w" and userDirect2 (1) = "n") then 
+	    put "compass W", userAngle, chr(186), "N is bearing ", finalAngleWN, chr(186)
+	elsif (userDirect1 (1) = "n"and userDirect2 (1) = "w") then 
+	    put "compass N", userAngle, chr(186), "W is bearing ", finalAngleNW, chr(186)
+	end if
+    end if
+    %End of Program
+
+end loop

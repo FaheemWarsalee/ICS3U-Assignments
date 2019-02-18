@@ -1,0 +1,40 @@
+var userPositiveIntergerOne, userPositiveIntergerTwo, userPositiveIntergerThree : string
+var finalPositiveIntergerOne, finalPositiveIntergerTwo, finalPositiveIntergerThree : int
+
+% Three user interger values
+loop
+    put "Please enter your first POSITIVE INTERGER: " ..
+    get userPositiveIntergerOne
+    if strintok (userPositiveIntergerOne) then
+	finalPositiveIntergerOne := strint (userPositiveIntergerOne)
+	exit
+    else
+	put "That is not a valid entry. "
+	delay (500)
+    end if
+end loop
+
+loop
+    put "Please enter your second POSITIVE INTERGER: " ..
+    get userPositiveIntergerTwo
+    if strintok (userPositiveIntergerTwo) then
+	finalPositiveIntergerTwo := strint (userPositiveIntergerTwo)
+	exit
+    else
+	put "That is not a valid entry. "
+	delay (500)
+    end if
+end loop
+
+loop
+    put "Please enter your third POSITIVE INTERGER: " ..
+    get userPositiveIntergerThree
+    if strintok (userPositiveIntergerThree) then
+	finalPositiveIntergerThree := strint (userPositiveIntergerThree)
+	exit
+    else
+	put "That is not a valid entry. "
+	delay (500)
+    end if
+end loop
+

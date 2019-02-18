@@ -1,0 +1,45 @@
+/*
+ Program: Couted Loop Exercise 6
+ Programmer: Faheem Warsalee
+ Course: ICS3U
+ Date: March 7th 2018
+
+ Brief Description:(a) [Challenge] Ask the user to input a number between 1 and 99, and then tell the user how many "tens" and how many "ones" in their number.
+Extension:
+(b) Increase the scope of the program to include "hundreds" and allow inputs from 1 to 999
+(c) Improve your output to avoid any grammatical errors (i.e., say "11 has 1 ten and 1 one", not "1 has 1 tens and 1 ones")
+(d) Further improve your output to avoid any "zero" statements (i.e., say "7 has 7 ones", not "7 has 0 tens and 7 ones")
+(e) Let the user specify how many numbers they will enter
+ */
+
+%declaring Variables
+var userNum, totNum, hunds, tens, ones : int
+
+%Inputs
+put "how many number do you wish to input (1-999) : " ..
+get totNum
+
+for count : 1 .. totNum
+    put "\nEnter a number: " ..
+    get userNum
+
+    %Processing
+    hunds := userNum div 100
+    tens := (userNum - (hunds * 100)) div 10
+    ones := userNum - ((hunds * 100) + (tens * 10))
+
+    %Output
+    if (hunds =0 and tens not=0 and ones not=0) then
+	put userNum, " has ", tens, " ten(s) and ", ones, " one(s)"
+    elsif (hunds not=0 and tens=0 and ones not=0) then
+	put userNum, " has ", hunds, " Hundred(s) and ", ones, " one(s)"
+    elsif (hunds not=0 and tens not=0 and ones=0) then
+	put userNum, " has ", hunds, " Hundred(s) and ", tens, " ten(s)"
+    elsif (hunds =0 and tens=0 and ones not=0) then
+	put userNum, " has ", ones, " one(s)"
+    elsif (hunds =0 and tens not=0 and ones=0) then
+	put userNum, " has ", tens, " ten(s)"
+    elsif (hunds not=0 and tens not=0 and ones=0) then
+	put userNum, " has ", hunds, " Hundred(s)"
+    end if
+end for

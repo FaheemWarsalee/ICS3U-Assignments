@@ -1,0 +1,188 @@
+*** FATAL INTERNAL ERROR in Turing ***
+Date: Mar 2 2018 3:12 PM
+
+File Name: C:\Users\warsf\Desktop\Turing 4.1.2\Turing 4.1.2\turing.exe
+Version: 4.1.2  [11]
+File Size: 2514944
+File Date: Feb 27 2018 6:01 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:63:53:2787 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:63:57:2791 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:63:59:2793 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:0:2794 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:4:2798 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:10:2804 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:11:2805 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:26:2820 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:28:2822 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:64:32:2826 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:0:2827 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:8:2835 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:12:2839 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:13:2840 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:21:2848 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:24:2851 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:40:2867 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:42:2869 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:44:2871 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:48:2875 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:54:2881 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:58:2885 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:65:60:2887 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:66:0:2888 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:66:4:2892 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:66:8:2896 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:66:10:2898 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:67:0:2899 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:68:0:2900 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:68:4:2904 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:68:8:2908 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:69:0:2909 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:70:0:2910 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:70:1:2911 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:70:5:2915 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:70:8:2918 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:70:15:2925 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 2d49e90 - Select: 1
+    Text - sz:71:2926 - slFr:0:0:0 - slTo:71:0:2926 - nlA:0
+    Line Starts: 68:2900 69:2909 70:2910 71:2926
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "D:\00ICS3U\01.Turing\02. Selection Exercises\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Ready has gone into an infinite loop.
+
+Ready Internal State: 71 72 71 71 2927 -842150451 2926 2926
+---
+--- (6051)
+   File = ..\..\ready\src\edtext.c
+   Line = 4674
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+Not enough space for modules.
+
+
+------------------------------------------------------
